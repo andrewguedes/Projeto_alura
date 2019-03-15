@@ -1,0 +1,48 @@
+.footer{
+    width: 100%;
+    height: 3em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #383838;
+    color: white;
+}
+
+.footer-title-logo {
+    font-size: 1.3em;
+    padding-left: 2.5em;
+    padding-right: .5em;
+}
+.footer-logo{
+    background: url(../imagens/logo-instalura.svg) no-repeat left;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 2.5em;
+}
+.footer-logo-social{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+.footer-logo-icones a{
+    width: 2em;
+    height: 2em;
+    display: inline-block;
+    text-align: center;
+    vertical-align: text-bottom;
+    padding: 0 .5em 0 1em;
+}
+.footer-logo-icones a:hover{
+    transform: scale(1.1);
+}
+
+.footer-logo-face{
+    background: url(../imagens/facebook.png) no-repeat;
+}
+.footer-logo-twitter{
+    background: url(../imagens/twitter.png) no-repeat;
+}
+.footer-logo-google{
+    background: url(../imagens/googleplus.png) no-repeat;
+}

@@ -1,0 +1,41 @@
+.container-aside{
+    border: solid #556FC6 1px;
+    width: 96%;
+    height: 250px;
+    margin: 1em auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+}
+.container-aside:hover{
+    border: solid white 1px;
+}
+.aside-figure-img{
+    max-width: 380px;
+    max-height: 100px;
+    width: 90%;
+    height: auto;
+    padding: 2em 1em;
+    margin: 0px;
+}
+
+.container-aside p{
+    padding: 1em 1em 2em 1em;
+    text-align: left;
+}
+
+@media(min-width: 760px){
+    .div-container-side{
+        width: 96%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 1em auto;
+    }
+    .container-aside{
+        width: 31.5%;
+        margin: 0;
+        height: 300px;
+    }
+}

@@ -1,0 +1,94 @@
+.section-Nossa-Equipe{
+    width: 100%;
+    height: 100%;
+    background-color: #010A2B;
+    color: #6481E7;
+    overflow: hidden;
+}
+
+.section-Nossa-Equipe-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1em;
+}
+
+.section-Nossa-Equipe-title{
+    padding: 1em;
+}
+
+.section-Nossa-Equipe-img{
+    max-width: 380px;
+    max-height: 100px;
+    width: 100%;
+    height: 50px;
+    object-fit: none;
+}
+.section-Nossa-Equipe-article p{
+    padding-top: 1em;
+    text-align: left;
+}
+
+.section-Nossa-Equipe a{
+    color: white;
+    text-decoration: none;
+    align-content: center;
+    padding-left: 2em;
+}
+
+.section-Nossa-Equipe-logo-user:hover { 
+    transform: scale(1.1); 
+}
+
+.section-Nossa-Equipe-logo-share:hover{
+    transform: scale(1.1); 
+}
+
+.section-Nossa-Equipe-container-logo{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    padding-top: 1em;
+}
+
+.section-Nossa-Equipe-logo-user{
+    background: url(../imagens/users.svg) no-repeat left;
+    min-height: 2.5em;
+    display: flex;
+    align-items: center;
+}
+
+.section-Nossa-Equipe-logo-share{
+    background: url(../imagens/share.svg) no-repeat left;
+    min-height: 2.5em;
+    display: flex;
+    align-items: center;
+}
+
+@media(min-width:760px){
+    .section-Nossa-Equipe-div{
+        max-height: 280px;
+        width: 50%;
+        height: auto;
+        align-self: flex-end;
+    }
+    .section-Nossa-Equipe-title{
+        order: 1;
+    }
+    .section-Nossa-Equipe-article{
+        order: 2;
+    }
+    .section-Nossa-Equipe-container-logo{
+        order: 3;
+    }
+    .section-Nossa-Equipe-img{
+        object-fit: cover;
+        max-width: 300px;
+        max-height: 280px;
+        width: auto;
+        height: auto;
+        flex-grow: 2;
+        padding: 2em;
+    }
+}

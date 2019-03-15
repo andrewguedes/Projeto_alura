@@ -1,0 +1,37 @@
+
+.section-sobre-bk{
+    background: url(../imagens/banner.jpeg);
+    background-repeat: round;
+    background-size: cover;
+}
+.section-sobre{
+    max-width: 380px;
+    width: 100%;
+    height: 320px; 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-evenly; 
+    text-align: left;
+}
+.section-sobre .title-sobre{
+    padding: 1em;
+}
+.section-sobre p{
+    padding: 1em;
+}
+
+.section-sobre a{
+    text-decoration: none;
+    color: white;
+    border: solid white 1px;
+    border-radius: 4px;
+    padding: 1em 38%;
+}
+
+@media(min-width:760px){
+    .section-sobre{
+        padding-left: 20em; 
+    }
+}
